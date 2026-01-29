@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ClientesService } from 'src/app/clientes.service';
 import { Cliente } from '../cliente';
 import { Router } from '@angular/router';
-import { error } from 'console';
 
 @Component({
   selector: 'app-clientes-lista',
